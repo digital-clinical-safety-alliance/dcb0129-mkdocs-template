@@ -1,6 +1,6 @@
 ---
 title: DTAC
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Digital Technology Assessment Criteria

@@ -1,3 +1,3 @@
-# Clinical Safety Management File for {{ project_name }}
+# Clinical Safety Management File for {{ cookiecutter.project_name }}
 
-{{ project_short_description }}
+{{ cookiecutter.project_short_description }}

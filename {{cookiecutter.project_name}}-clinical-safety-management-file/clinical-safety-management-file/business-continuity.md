@@ -1,6 +1,6 @@
 ---
 title: Business Continuity
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 ## Business Continuity

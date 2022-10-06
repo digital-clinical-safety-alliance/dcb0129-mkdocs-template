@@ -1,9 +1,9 @@
 ---
 title: Hazard Log
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
-# {{ project_name }} Hazard Log
+# {{ cookiecutter.project_name }} Hazard Log
 
 In keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature.
 

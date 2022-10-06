@@ -1,6 +1,6 @@
 ---
 title: MHRA Essential Requirements
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 ## MHRA Medical device essential requirements - general

@@ -1,6 +1,6 @@
 ---
 title: Clinical Safety Mmanagement File Content License
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # License file for the RCPCH dGC Clinical Safety Management File

@@ -1,6 +1,6 @@
 ---
 title: Third Party Tools Safety
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Third Party Tools Safety

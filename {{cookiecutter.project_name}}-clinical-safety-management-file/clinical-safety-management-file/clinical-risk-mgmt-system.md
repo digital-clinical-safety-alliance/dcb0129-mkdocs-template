@@ -1,13 +1,13 @@
 ---
 title: Clinical Risk Management System
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Clinical Risk Management System
 
-## {{ clinical_safety_team_name }}
+## {{ cookiecutter.cookiecutter.clinical_safety_team_name }}
 
-### March 2021
+### DATE
 
 ## Document Management
 
@@ -23,21 +23,19 @@ author: {{ author_name }}
 
 This document must be reviewed by:
 
-- Dr Simon Chapman
-- Prof Tim Cole
-- Magda Umerska
-
 The review mechanism for update is via Pull Request review on GitHub, with opportunity for reviewers to comment and amend the text.
 
 ### Approvers and Process
 
 This document must be **approved** by:
 
-- Clinical Safety Officer, {{ clinical_safety_team_name }}
+- Clinical Safety Officer, {{ cookiecutter.clinical_safety_team_name }}
 
 - Following satisfactory review by the Reviewers, the nominated Approvers merge the pull request into the main branch of the code.
 
-- The current version of this document will always be selected as the 'default branch' in GitHub### Related Documents
+- The current version of this document will always be selected as the 'default branch' in GitHub
+- 
+### Related Documents
 
 ## Introduction
 

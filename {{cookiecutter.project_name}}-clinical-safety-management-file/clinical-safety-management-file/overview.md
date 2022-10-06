@@ -1,6 +1,6 @@
 ---
 title: "Clinical Safety: Overview"
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Clinical Safety of the dGC Project

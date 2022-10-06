@@ -1,6 +1,6 @@
 ---
 title: Technical Documentation
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Technical Documentation for EU Medical Device Regulation

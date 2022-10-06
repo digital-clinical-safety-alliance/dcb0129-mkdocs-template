@@ -1,6 +1,6 @@
 ---
 title: Security
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Security

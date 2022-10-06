@@ -1,6 +1,6 @@
 ---
 title: Declaration of Conformity
-author: {{ author_name }}
+author: {{ cookiecutter.author_name }}
 ---
 
 # Declaration of Conformity (API Server)
