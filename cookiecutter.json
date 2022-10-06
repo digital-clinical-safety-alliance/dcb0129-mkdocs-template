@@ -1,0 +1,27 @@
+{
+  "author_name": "Example Author's Name",
+  "author_email": "author@example.com",
+
+  "clinical_safety_officer_name": "Example CSO Name",
+  "clinical_safety_officer_contact": "clinicalsafetyofficer@example.com",
+
+  "clinical_safety_team_name": "The Clinical Safety Team",
+
+  "organisation_name": "Organisation Name",
+
+  "security_responsible_disclosure_email": "securityresponsibledisclosure@example.com",
+
+  "hazard_log_url": "https://github.com/examplehazardlogrepo",
+
+  "project_name": "Healthcare IT Project Name",
+  "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_short_description": "A Cookiecutter for a Clinical Safety Management File",
+
+  "business_continuity?": "n",
+
+  "clinical_safety_management_file_version": "1.0.0",
+  "clinical_safety_management_file_license": [
+    "Creative Commons CC-BY-SA4.0",
+    "No license"
+  ]
+}
