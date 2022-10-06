@@ -5,7 +5,7 @@ author: {{ cookiecutter.author_name }}
 
 # Clinical Risk Management System
 
-## {{ cookiecutter.cookiecutter.clinical_safety_team_name }}
+## {{ cookiecutter.clinical_safety_team_name }}
 
 ### DATE
 
@@ -17,7 +17,7 @@ author: {{ cookiecutter.author_name }}
 
 - Refer to the document's Releases section in GitHub to see a history of releases.
 
-- This document was created from the CRMP template provided on the NHS Digital Website.
+- This document was created from the Clinical Safety Management Plan templates provided on the NHS Digital Website.
 
 ### Reviewers and Process
 
@@ -29,7 +29,7 @@ The review mechanism for update is via Pull Request review on GitHub, with oppor
 
 This document must be **approved** by:
 
-- Clinical Safety Officer, {{ cookiecutter.clinical_safety_team_name }}
+- {{ cookiecutter.clinical_safety_officer_name }}, Clinical Safety Officer, {{ cookiecutter.clinical_safety_team_name }}
 
 - Following satisfactory review by the Reviewers, the nominated Approvers merge the pull request into the main branch of the code.
 

@@ -36,7 +36,7 @@ Using the Label search feature, one can search for Hazards at any Risk Level, in
 * We can filter for multiple labels.
 
 ## Deletion
-Hazards are **never** deleted but may be *closed* if no longer relevant.
+Hazards are **never** deleted but may be *closed* if there is no residual hazard and they are no longer relevant.
 
 ## Alternative views
 We are planning to develop a simple application which can view Issues in a tabular form, for familiarity.
