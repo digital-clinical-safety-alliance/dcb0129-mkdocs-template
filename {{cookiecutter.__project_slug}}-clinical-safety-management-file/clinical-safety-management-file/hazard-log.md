@@ -36,13 +36,13 @@ Using the Label search feature, one can search for Hazards at any Risk Level, in
 
 - We can filter for multiple labels.
 
-## Deletion
+## Hazard Deletion
 
 Hazards are **never** deleted but may be _closed_ if there is no residual hazard and they are no longer relevant.
 
 ## Alternative views
 
-We are planning to develop a simple application which can view Issues in a tabular form, for familiarity.
+Using the [GitHub Projects](h{{ cookiecutter.hazard_log_url }}/projects) you can create a tabular (Excel-style) view, or a Kanban (Trello) view of your Hazards. Using built-in GitHub Issues and Pull Requests features you can link Hazards to their mitigations in code, to show a chain of evidence of clinical safety improvements.
 
 ## Creating a Hazard
 
@@ -54,3 +54,7 @@ We are planning to develop a simple application which can view Issues in a tabul
 6. Save by 'committing' to the repository.
 7. Review and ensure complete.
 8. Invite others to review and comment using @mention or by sharing the URL
+
+## Risk Matrix and Acceptability Criteria
+
+![risk-matrix](_assets/_images/risk-matrix.png)

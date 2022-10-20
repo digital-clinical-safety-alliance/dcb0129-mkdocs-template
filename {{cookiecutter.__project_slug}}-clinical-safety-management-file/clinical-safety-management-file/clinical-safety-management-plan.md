@@ -51,7 +51,7 @@ Organisational management of Healthcare IT related risks is as per the existing 
 #### Clinical Safety Officer
 
 Clinical Safety Officer Name: {{ cookiecutter.clinical_safety_officer_name }}
-Clinical Safety Officer Contact: {{ cookiecutter.clinical_safety_officer_contact }}
+Clinical Safety Officer Contact: [{{ cookiecutter.clinical_safety_officer_contact }}]({{ cookiecutter.clinical_safety_officer_contact }})
 
 #### Chief Executive Officer
 
@@ -62,8 +62,6 @@ Governance for patient safety within the Organisation is provided through the fo
 ### Clinical Risk Meetings
 
 ### Issue tracking
-
-- Open, public issue tracking ensures the widest possible reporting base, and unparalleled access to report issues compared to the majority of Health IT systems. These Issues, tracked in GitHub, directly form part of the development workflow used by the clinical and technical teams.
 
 ## Healthcare IT Clinical Risk Management Deliverables
 
@@ -145,7 +143,7 @@ Clinical Risk Management activities within the Organisation and theHealthcare IT
 
 ### Security Incident Management Process
 
-Security issues may be responsibly disclosed to {{ cookiecutter.security_responsible_disclosure_email }} for immediate action. We recognise and respect the essential work of security researchers and will treat your contribution with gratitude and appropriate action. We do not engage in vexatious Computer Misuse Act litigation.
+Security issues may be responsibly disclosed to [{{ cookiecutter.security_responsible_disclosure_email }}]({{ cookiecutter.security_responsible_disclosure_email }}) for immediate action. We recognise and respect the essential work of security researchers and will treat your contribution with gratitude and appropriate action. We do not engage in vexatious Computer Misuse Act litigation.
 
 Internally we treat security issues with the highest priority. Once the 'acute phase' of any security threat is handled, we will then follow the Safety Incident Management Process, usually converting to a public GitHub Issue.
 

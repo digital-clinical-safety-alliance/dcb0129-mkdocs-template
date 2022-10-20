@@ -1,6 +1,12 @@
-# Cookiecutter Clinical Safety Management File 
+# Cookiecutter Clinical Safety Management File
 
 Powered by Powered by [Cookiecutter](https://github.com/cookiecutter), Cookiecutter Clinical Safety Management File automates the generation of a skeleton outline Clinical Safety Management File, pre-populated with project-, team-, and organisation-specific details.
+
+## Features
+
+- Automatic generation of a skeletal set of clinical safety documents to be reviewed and customised for the use-case
+- Prebuilt with a ready-configured Material for MkDocs website for the documents
+- Automatic build and deploy of the MkDocs site as a GitHub Pages site (via GitHub Actions)
 
 ## Why?
 
@@ -8,37 +14,47 @@ We believe that creation of the Clinical Safety Management File using traditiona
 
 Having used GitHub for managing clinical safety documentation in other projects, we have developed this Cookiecutter to speed up the initial process of creating a new GitHub repository and some clinical safety documentation to start from.
 
------
+---
+
 ## DISCLAIMER
 
 This documentation is offered as a service to other Clinical Safety Officers **without warranty of any kind**. It in no way replaces the need for a comprehensive and legal clinical safety team approach. All responsibility for all aspects of clinical safety compliance and legal compliance remains with the owners of the Healthcare IT project.
 
------
+---
+
 ## Usage
 
-### Setup 
+### Setup
+
 Install Cookiecutter and any prerequisites such as Python
 
 ### Initial generation of clinical safety management file
 
 Run the Cookiecutter
+
 ```shell
 cookiecutter gh:bawmedical/cookiecutter-dcb0129
 ```
 
 Enter your project-, team- and organisation-specific information in response to the command line prompts.
 
-The data you enter will be used to populate values within the template documents, and the output will be in a subfolder named according to your slugified project name
+The data you enter will be used to populate values within the template documents, and the output will be in a subfolder named according to your slugified project name.
 
 ### Commit to version control
 
 ### Making Changes
 
-You can edit any part of the generated documentation is a text editor. We recommend Visual Studio Code, which is a free, extensible, open source editor. Global 'find and replace' is the easiest way to change any of the global variables you set during the initial Cookiecutter run.
+You can edit any part of the generated documentation in a text editor. We recommend Visual Studio Code, which is a free, extensible, open source editor. Global 'find and replace' is the easiest way to change any of the global variables you set during the initial Cookiecutter run.
+
+
 
 ### Reviewing and amending
 
-You **MUST** review and amend **IN ENTIRETY** the generated clinical safety documentation according to the needs of your project, team, and organisation. The auto-generated documentation is only a starting point for you clinical safety documentation, it is designed to speed up, simplify, and improve your clinical safety work, but is not a replacement for a Clinical Safety Officer and an appropriate clinical safety process.
+You **MUST** review and amend **IN ENTIRETY** the generated clinical safety documentation according to the needs of your project, team, and organisation. The auto-generated documentation is only a starting point for you clinical safety documentation, it is designed to speed up, simplify, and improve your clinical safety work, but **it is not a replacement for a Clinical Safety Officer and an appropriate clinical safety process.**
+
+* Remove any documents that you don't need.
+
+* Review all the documents to ensure they read correctly and make sense.
 
 
 ### Output into other formats
@@ -55,13 +71,11 @@ A number of web documentation frameworks are available which can ingest Markdown
 
 ## Roadmap for future development
 
-* Automatic GitHub Action generation of PDF and Word version of the CSMF, triggered by changes to the repository.
-* Automatic generation of the Hazard Log repository, with labels for risk severity and likelihood.
-* Support for Medical Device Registration Documentation in EU, UK, and NI.
-* Support for Digital Technologies Assessment Criteria (DTAC).
-
+- Automatic GitHub Action generation of PDF and Word version of the CSMF, triggered by changes to the repository.
+- Automatic generation of the Hazard Log repository, with labels for risk severity and likelihood.
+- Support for Medical Device Registration Documentation in EU, UK, and NI.
+- Support for Digital Technologies Assessment Criteria (DTAC).
 
 ## Acknowledgements
 
-* This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and other projects, for which due acknowledgement is afforded.
-
+- This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and other projects, for which due acknowledgement is afforded.
