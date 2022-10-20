@@ -1,6 +1,6 @@
 ---
 title: Clinical Risk Management Plan
-author: {{ cookiecutter.author_name }}
+author: { { cookiecutter.author_name } }
 ---
 
 # Clinical Risk Management Plan
@@ -46,23 +46,20 @@ Organisational management of Healthcare IT related risks is as per the existing 
 
 ### Clinical Risk Management Team Organisation Chart
 
-
 ### Personnel
 
 #### Clinical Safety Officer
 
-Clinical Safety Officer Name: {{ cookiecutter.clinical_safety_officer_name }} 
+Clinical Safety Officer Name: {{ cookiecutter.clinical_safety_officer_name }}
 Clinical Safety Officer Contact: {{ cookiecutter.clinical_safety_officer_contact }}
 
 #### Chief Executive Officer
-
 
 ## Governance
 
 Governance for patient safety within the Organisation is provided through the following:
 
 ### Clinical Risk Meetings
-
 
 ### Issue tracking
 
@@ -139,7 +136,6 @@ Details of the risk control measure and evidence of effective implementation wil
 ### Deployment and Ongoing Maintenance
 
 To support clinical safety activities undertaken during any deployment phases of a project or programme of work the following documentation will be required to form a part of the overall approval process.
-
 
 ### Incident Management
 

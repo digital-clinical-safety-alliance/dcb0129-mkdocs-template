@@ -1,6 +1,6 @@
 ---
 title: Clinical Risk Management System
-author: {{ cookiecutter.author_name }}
+author: { { cookiecutter.author_name } }
 ---
 
 # Clinical Risk Management System
@@ -34,7 +34,8 @@ This document must be **approved** by:
 - Following satisfactory review by the Reviewers, the nominated Approvers merge the pull request into the main branch of the code.
 
 - The current version of this document will always be selected as the 'default branch' in GitHub
-- 
+-
+
 ### Related Documents
 
 ## Introduction

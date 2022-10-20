@@ -47,7 +47,7 @@ Some organisations or collaborators will be uncomfortable with the Markdown form
 
 ### Creating a documentation website from your Markdown
 
-A number of web documentation frameworks are available which can ingest Markdown and output a static website. One of these Material for MkDocs
+A number of web documentation frameworks are available which can ingest Markdown and output a static website. One of these is Material for MkDocs, and this Cookiecutter creates automatically a Material for MkDocs site out of your safety documentation.
 
 > If you are using Material for MkDocs in a production site for a commercial product, please consider joining their [Insiders programme](https://squidfunk.github.io/mkdocs-material/insiders/) which supports the project financially and gets you some very cool additional features ahead of everyone else.
 

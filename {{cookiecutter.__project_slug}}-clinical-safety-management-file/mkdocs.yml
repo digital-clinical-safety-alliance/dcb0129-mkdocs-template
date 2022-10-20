@@ -3,13 +3,19 @@ site_description: {{ cookiecutter.project_short_description }}
 site_author: {{ cookiecutter.organisation_name }}
 site_url: https://www.example.com/documentation
 
+
+# MkDocs will build the contents of this folder into the site
+docs_dir: clinical-safety-management-file
+
+
 # copyright information which is shown in the footer
 copyright: Copyright &copy; 2022 {{ organisation_name }}
 
 # these lines configure the 'GitHub repo' widget on the top right
-repo_url: https://github.com/exampleorg
-repo_name: exampleorg/examplerepo
-edit_uri: blob/live/docs
+# uncomment to enable
+# repo_url: https://github.com/exampleorg
+# repo_name: exampleorg/examplerepo
+# edit_uri: blob/live/docs
 
 # `mkdocs serve` serves the docs locally on this port
 dev_addr: "127.0.0.1:8001"
@@ -20,16 +26,28 @@ theme:
 
   features:
     - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # uncomment the below two lines for Tabbed navigation (along the header bar)
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.tracking
     - navigation.top
     - navigation.expand
     # - toc.integrate
 
   palette:
-    # Light mode only for now
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
       scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
   font:
     code: Roboto Mono
@@ -61,10 +79,11 @@ extra_css:
   - _assets/_stylesheets/extra.css
 
 # footer links and variables
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/exampleorgstwitter
-    - icon: fontawesome/brands/github
-      link: https://github.com/exampleorgsgithub
-      
+# extra:
+  
+  # uncomment to add social icons
+  # social:
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/exampleorgstwitter
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/exampleorgsgithub
