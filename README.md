@@ -63,5 +63,5 @@ A number of web documentation frameworks are available which can ingest Markdown
 
 ## Acknowledgements
 
-* This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and the 
+* This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and other projects, for which due acknowledgement is afforded.
 

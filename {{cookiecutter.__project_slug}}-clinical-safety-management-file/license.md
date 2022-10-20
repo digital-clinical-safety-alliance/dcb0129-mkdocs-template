@@ -1,17 +1,15 @@
 ---
-title: Clinical Safety Mmanagement File Content License
+title: Clinical Safety Management File Content License
 author: {{ cookiecutter.author_name }}
 ---
 
-# License file for the RCPCH dGC Clinical Safety Management File
+# License file for the {{ cookiecutter.organisation_name }} Clinical Safety Management File
 
 This clinical safety management file is in a public repository. Having completely open clinical safety documention is a good way to increase transparency and to demonstrate genuine attention to clinical safety issues.
 
-We are happy for it to be reused by others implementing open source projects. If you do reuse any part of this work, you **must** attribute the Royal College of Paediatrics and Child Health, and follow the other terms of this license. If you are a commercial organisation wishing to use this documentation then we may consider dual-licensing to allow for this. Please contact us.
+We are happy for it to be reused by others implementing open source projects. If you do reuse any part of this work, you **must** attribute {{ cookiecutter.organisation_name }}, and follow the other terms of this license. If you are a commercial organisation wishing to use this documentation then we may consider dual-licensing to allow for this. Please contact us.
 
 -------
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">RCPCH dGC Clinical Safety Management File</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/rcpch/clinical-risk-management-file" property="cc:attributionName" rel="cc:attributionURL">Royal College of Paediatrics and Child Health</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 

@@ -25,8 +25,6 @@ Also within these practices are measures which ensure that the code which is dep
 
 ### GitHub Repository
 
-* Login to the GitHub organisation is restricted to specific authorised users, who are in the RCPCH Developer Team, who are all required to use **two-factor authentication** (username + password + another factor such as Google Authenticator).
-
 * 'Pushes' of new code to the GitHub repositories are authenticated using **SSH Keys** which are secure, long, cryptographic tokens held on the computers used to develop the growth charts. Use of the token requires a further password, so possession of the computer alone is not enough to use the computer's SSH key to make a push of unauthorised code to GitHub.
 
 * **Signed Commits** - Git commits of code are ['signed' using GPG](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (Gnu Privacy Guard - an open source implementation of the PGP protocol). This is a further attestation to the correct identity of the committer of the code.
@@ -51,6 +49,4 @@ Also within these practices are measures which ensure that the code which is dep
 
 ### Cyber Essentials
 
-The RCPCH has been certified as compliant with the requirements of the Cyber Essentials scheme
-
-[RCPCH Cyber Essentials certificate](../../_assets/_pdfs/rcpch-cyber-essentials-certificate.pdf)
+Insert your Cyber Essential Certificate if available here

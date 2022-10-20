@@ -22,7 +22,7 @@ This Clinical Risk Management System will be reviewed periodically to ensure tha
 
 ## Audience
 
-This document is for the {{ cookiecutter.clinical_safety_team_name }} staff that are involved in ensuring the safety of the RCPCH's Healthcare IT systems, products or services, but is made publicly available as part of our commitment to transparency and open governance.
+This document is for the {{ cookiecutter.clinical_safety_team_name }} staff that are involved in ensuring the safety of the {{ cookiecutter.organisation_name }}'s Healthcare IT systems, products or services, but is made publicly available as part of our commitment to transparency and open governance.
 
 ## Scope
 
@@ -30,16 +30,9 @@ This policy applies to the the {{ cookiecutter.clinical_safety_team_name }}'s or
 
 If clarification is required of whether any system falls within scope of this CRMS this should be raised with the nominated Clinical Safety Officer (CSO) for clarification. This nominated person provides clinical and organisational leadership on Healthcare IT Patient Safety on behalf of the Organisation.
 
-!!! danger "IMPORTANT NOTICE FOR SELF-HOSTING"
-    IMPORTANT: This Clinical Risk Management File applies ONLY to RCPCH open source software as deployed and managed by the {{ cookiecutter.clinical_safety_team_name }} under our direct control.
-    
---8<--
-docs/_assets/_snippets/self-host-warning.md
---8<--
-
 ## Definitions
 
-Note - Also see the RCPCH Risk Management Strategy
+Note - Also see the {{ cookiecutter.organisation_name }} Risk Management Strategy
 
 **CSO:** Clinical Safety Officer - the person responsible for ensuring that the Healthcare IT Clinical Risk Management System is applied to all clinical systems. The Clinical Safety Officer (CSO) for the Organisation is responsible for ensuring the safety of a Healthcare IT system through the application of clinical risk management. The Clinical Safety Officer must hold a current registration with an appropriate professional body relevant to their training and experience. They also need to be suitably trained and qualified in risk management or have an understanding in principles of risk and safety as applied to Healthcare IT systems. The Clinical Safety Officer ensures that the processes defined by the clinical risk management system are followed.
 
@@ -53,7 +46,6 @@ Organisational management of Healthcare IT related risks is as per the existing 
 
 ### Clinical Risk Management Team Organisation Chart
 
-The RCPCH's team is not yet of a size that it requires an org chart to explain. Left here as a placeholder in case an org chart is needed in the future.
 
 ### Personnel
 
@@ -64,17 +56,13 @@ Clinical Safety Officer Contact: {{ cookiecutter.clinical_safety_officer_contact
 
 #### Chief Executive Officer
 
-Overall governance for the RCPCH Digital Growth Charts project is provided not by a single individual, but by the RCPCH Digital Growth Charts Project Board, which is composed of senior leadership within the RCPCH and the most eminent clinicians in the field of Growth charts.
 
 ## Governance
 
-Governance for patient safety within the Organisation is provided through the following forums:
+Governance for patient safety within the Organisation is provided through the following:
 
 ### Clinical Risk Meetings
 
-- Clinical Safety is discussed as a fixed item on the two-weekly Sprint Planning Meeting at which the project is planned and priorities set for the next sprint of development.
-
-- In the event of an **urgent** clinical safety issue or incident, a supplementary Clinical Risk meeting is held at the earliest possible time.
 
 ### Issue tracking
 
@@ -100,9 +88,9 @@ The {{ cookiecutter.clinical_safety_team_name }} will establish and maintain a H
 
 The {{ cookiecutter.clinical_safety_team_name }} will establish and develop a Clinical Safety Case (CSC) for each safety-related Healthcare IT system:
 
-- RCPCH dGC Application Programming Interface
-- RCPCH Demo React Client (not for direct clinical use)
-- RCPCH React Component
+- item
+- item
+- item
 
 ### Clinical Safety Case Report
 
@@ -152,9 +140,6 @@ Details of the risk control measure and evidence of effective implementation wil
 
 To support clinical safety activities undertaken during any deployment phases of a project or programme of work the following documentation will be required to form a part of the overall approval process.
 
-Deployment of changes to any of the RCPCH dGC health IT systems follows an industry-standard pattern of 'code promotion' using a Git Branch-based strategy. New features are developed in branches specific to that feature. Following successful testing, user acceptance, and automated tests, a successful feature can be merged into the next branch 'up' which may be an 'alpha' or other nomenclature. The process of merging requires code review by nominated individuals and is a further opportunity for clinical safety review.
-
-Code in the 'live' branch is changed relatively infrequently (except for urgent security or safety updates) but the code which is promoted into 'live' wuld have by then undergone several rounds of review as it progressed through our branch promotion strategy.
 
 ### Incident Management
 
@@ -164,7 +149,7 @@ Clinical Risk Management activities within the Organisation and theHealthcare IT
 
 ### Security Incident Management Process
 
-Security issues may be responsibly disclosed to growth.digital@rcpch.ac.uk for immediate action. We recognise and respect the work of security researchers and will treat your contribution with gratitude and appropriate action. We do not engage in vexatious CMA litigation.
+Security issues may be responsibly disclosed to {{ cookiecutter.security_responsible_disclosure_email }} for immediate action. We recognise and respect the essential work of security researchers and will treat your contribution with gratitude and appropriate action. We do not engage in vexatious Computer Misuse Act litigation.
 
 Internally we treat security issues with the highest priority. Once the 'acute phase' of any security threat is handled, we will then follow the Safety Incident Management Process, usually converting to a public GitHub Issue.
 

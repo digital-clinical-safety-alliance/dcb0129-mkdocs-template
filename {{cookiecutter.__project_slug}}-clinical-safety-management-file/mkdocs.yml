@@ -1,0 +1,70 @@
+site_name: {{ cookiecutter.project_name }}
+site_description: {{ cookiecutter.project_short_description }}
+site_author: {{ cookiecutter.organisation_name }}
+site_url: https://www.example.com/documentation
+
+# copyright information which is shown in the footer
+copyright: Copyright &copy; 2022 {{ organisation_name }}
+
+# these lines configure the 'GitHub repo' widget on the top right
+repo_url: https://github.com/exampleorg
+repo_name: exampleorg/examplerepo
+edit_uri: blob/live/docs
+
+# `mkdocs serve` serves the docs locally on this port
+dev_addr: "127.0.0.1:8001"
+
+# theme settings, fonts, colours
+theme:
+  name: material
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.top
+    - navigation.expand
+    # - toc.integrate
+
+  palette:
+    # Light mode only for now
+      scheme: default
+
+  font:
+    code: Roboto Mono
+
+
+# mkdocs plugins
+plugins:
+  - search
+
+# additional markdown features
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+# set extra CSS file
+extra_css:
+  - _assets/_stylesheets/extra.css
+
+# footer links and variables
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/exampleorgstwitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/exampleorgsgithub
+      
