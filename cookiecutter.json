@@ -18,7 +18,7 @@
   "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
   "project_short_description": "A Cookiecutter for a Clinical Safety Management File",
 
-  "business_continuity?": "n",
+  "business_continuity": "n",
 
   "clinical_safety_management_file_version": "1.0.0",
   "clinical_safety_management_file_license": [

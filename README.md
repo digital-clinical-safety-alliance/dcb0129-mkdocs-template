@@ -23,7 +23,7 @@ Install Cookiecutter and any prerequisites such as Python
 
 Run the Cookiecutter
 ```shell
-cookiecutter gh:bawmedical/clinicalsafetymanagementfile
+cookiecutter gh:bawmedical/cookiecutter-dcb0129
 ```
 
 Enter your project-, team- and organisation-specific information in response to the command line prompts.
