@@ -1,0 +1,13 @@
+# Python requirements for the CSMF documentation site
+
+# this installs Material for MkDocs and all dependencies
+mkdocs-material
+
+# for the feature which displays authors at the bottom of the page
+mkdocs-git-committers-plugin-2
+
+# for the feature which displays last edit date at the bottom of the page
+mkdocs-git-revision-date-localized-plugin
+
+# for the PDF export feature
+mkdocs-with-pdf
