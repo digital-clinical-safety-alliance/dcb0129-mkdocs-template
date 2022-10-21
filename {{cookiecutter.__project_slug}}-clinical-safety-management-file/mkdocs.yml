@@ -12,22 +12,26 @@ copyright: Copyright &copy; 2022 {{ organisation_name }}
 
 # these lines configure the 'GitHub repo' widget on the top right
 # uncomment to enable
-# repo_url: https://github.com/exampleorg
-# repo_name: exampleorg/examplerepo
-# edit_uri: blob/live/docs
+repo_url: {{ cookiecutter.repository_url }}
+repo_name: {{ cookiecutter.__project_slug }}
+edit_uri: blob/main/clinical-safety-management-file
 
 # `mkdocs serve` serves the docs locally on this port
 dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
-
 nav:
-  - 'clinical-safety-management-system.md'
-  - 'clinical-safety-management-plan.md'
-  - 'clinical-safety-case-report.md'
-  - 'security.md'
-  # - 'medical-device.md'
-
+  - Home: "index.md"
+  - "clinical-safety-management-system.md"
+  - "clinical-safety-management-plan.md"
+  - "clinical-safety-case-report.md"
+  - "hazard-log.md"
+  - "business-continuity.md"
+  - "security.md"
+  - "third-party-tools-safety-assmt.md"
+  - "medical-device.md"
+  - "download.md"
+  - "contact.md"
 
 # theme settings, fonts, colours
 theme:
@@ -64,6 +68,11 @@ theme:
 
 # mkdocs plugins
 plugins:
+  - git-committers:
+      repository: {{ cookiecutter.repository_url }}
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
   - search
   - with-pdf:
         #cover: false

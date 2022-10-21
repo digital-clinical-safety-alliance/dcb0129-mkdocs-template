@@ -13,7 +13,7 @@
 
   "security_responsible_disclosure_email": "securityresponsibledisclosure@example.com",
 
-  "hazard_log_url": "https://github.com/examplehazardlogrepo",
+  "repository_url": "https://github.com/examplerepo",
 
   "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
   "project_short_description": "A Cookiecutter for a Clinical Safety Management File",
