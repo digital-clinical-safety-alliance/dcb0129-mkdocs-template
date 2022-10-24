@@ -6,6 +6,7 @@
 
   "clinical_safety_officer_name": "Example CSO Name",
   "clinical_safety_officer_contact": "clinicalsafetyofficer@example.com",
+  "clinical_safety_officer_github_handle": "example-github-handle",
 
   "clinical_safety_team_name": "The Clinical Safety Team",
 
