@@ -2,7 +2,7 @@
 site_name: {{ cookiecutter.project_name }}
 site_description: {{ cookiecutter.project_short_description }}
 site_author: {{ cookiecutter.organisation_name }}
-site_url: 
+site_url:
 
 # MkDocs processes files in this folder into a HTML site
 docs_dir: clinical-safety-management-file
@@ -76,7 +76,7 @@ plugins:
   - search
   - with-pdf:
         #cover: false
-      back_cover: true
+        #back_cover: true
         #cover_subtitle: SUBTITLE TEXT
         #custom_template_path: TEMPLATES PATH
         #

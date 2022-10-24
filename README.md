@@ -1,24 +1,25 @@
 # Cookiecutter Clinical Safety Management File
 
-Powered by Powered by [Cookiecutter](https://github.com/cookiecutter), Cookiecutter Clinical Safety Management File automates the generation of a skeleton outline Clinical Safety Management File, pre-populated with project-, team-, and organisation-specific details.
+Powered by [Cookiecutter](https://github.com/cookiecutter), the Cookiecutter Clinical Safety Management File automates the generation of a skeleton outline Clinical Safety Management File, pre-populated with project-, team-, and organisation-specific details.
 
 ## Features
 
 - Automatic generation of a skeletal set of clinical safety documents to be reviewed and customised for the use-case
 - Prebuilt with a ready-configured Material for MkDocs website for the documents
 - Automatic build and deploy of the MkDocs site as a GitHub Pages site (via GitHub Actions)
+- Automatic generation of a PDF version of the complete site, for organisations who would prefer to have an 'offline' document.
 
 ## Why?
 
-We believe that creation of the Clinical Safety Management File using traditional methods (for example customising the NHS Digital template Word documents) is unnecessarily time-consuming and distracts Clinical Safety Officers from the actual task of building clinical safety into the development toolchain.
+We believe that creation of the Clinical Safety Management File using traditional methods (for example customising the NHS Digital template Word documents) is unnecessarily time-consuming and distracts Clinical Safety Officers from the **actual** task of building clinical safety into the development toolchain and working with their teams on improving the safety of their products.
 
 Having used GitHub for managing clinical safety documentation in other projects, we have developed this Cookiecutter to speed up the initial process of creating a new GitHub repository and some clinical safety documentation to start from.
 
 ---
 
-## DISCLAIMER
+> ## **DISCLAIMER**
 
-This documentation is offered as a service to other Clinical Safety Officers **without warranty of any kind**. It in no way replaces the need for a comprehensive and legal clinical safety team approach. All responsibility for all aspects of clinical safety compliance and legal compliance remains with the owners of the Healthcare IT project.
+> **This documentation is offered as a free public service to other Clinical Safety Officers as-is, without warranty of any kind. It in no way replaces the need for a comprehensive and legal clinical safety team approach. All responsibility for all aspects of clinical safety compliance and legal compliance remains with the owners of the Healthcare IT project.**
 
 ---
 
@@ -78,4 +79,8 @@ A number of web documentation frameworks are available which can ingest Markdown
 
 ## Acknowledgements
 
-- This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and other projects, for which due acknowledgement is afforded.
+- This Cookiecutter is derived from the Clinical Safety work from the RCPCH Digital Growth Charts project, the RCPCH Epilepsy12 Audit Platform project, and other RCPCH Incubator and Baw Medical Ltd projects, for which due acknowledgement is afforded.
+
+## Authors
+
+* **Dr Marcus Baw** [@pacharanero](https://github.com/pacharanero)
