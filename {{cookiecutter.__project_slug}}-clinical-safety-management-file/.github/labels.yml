@@ -39,19 +39,19 @@
 
 # Severity scoring 
 - name: "severity-catastrophic"
-  description: "Death, multiple. Severe injury or lifechanging incapacity, multiple."
+  description: "Death, 2+. Severe injury or lifechanging incapacity, 2+."
   color: "D8E4BC"
  
 - name: "severity-major"
-  description: "Death, single; Severe injury or life-changing incapacity, single; Psychological trauma, multiple."
+  description: "Death, 1; Severe injury or life-changing incapacity, 1; Psychological trauma, 2+."
   color: "D8E4BC"
   
 - name: "severity-considerable"
-  description: "Severe injury, single, severe incapacity, recovery expected; Significant psych. trauma, multiple."
+  description: "Severe injury, 1, severe incapacity, recovery expected; Significant psych. trauma, 2+."
   color: "D8E4BC"
  
 - name: "severity-significant"
-  description: "Minor injury, long term, single; Significant psych. trauma, single; Minor inj/psych trauma, multiple."
+  description: "Minor injury, long term, 1; Significant psych. trauma, 1; Minor inj/psych trauma, 2+."
   color: "D8E4BC"
   
 - name: "severity-minor"
