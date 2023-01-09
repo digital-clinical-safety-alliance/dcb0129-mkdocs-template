@@ -21,7 +21,7 @@ dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
 nav:
-  - Home: "overview.md"
+  - Home: "index.md"
   - "clinical-safety-management-system.md"
   - "clinical-safety-management-plan.md"
   - "clinical-safety-case-report.md"
