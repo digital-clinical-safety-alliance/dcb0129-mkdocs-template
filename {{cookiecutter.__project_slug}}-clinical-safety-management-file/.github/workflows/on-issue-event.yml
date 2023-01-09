@@ -12,7 +12,7 @@ jobs:
       - name: Add comment
         uses: peter-evans/create-or-update-comment@v1
         with:
-          issue-number: ${{ github.event.issue.number }}
+          issue-number: ${{{{}} github.event.issue.number {{}}}}
           body: |
             Thank you for opening or editing a Hazard in the Hazard Log.
             ### Next steps:
