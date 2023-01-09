@@ -21,6 +21,7 @@
   "project_short_description": "A Cookiecutter for a Clinical Safety Management File",
 
   "business_continuity": "n",
+  "medical_device": "n",
 
   "clinical_safety_management_file_version": "1.0.0",
   "clinical_safety_management_file_license": [
