@@ -8,7 +8,7 @@ site_url:
 docs_dir: clinical-safety-management-file
 
 # Copyright information which is shown in the footer
-copyright: Copyright &copy; 2022 {{ organisation_name }}
+copyright: Copyright &copy; 2022 {{ cookiecutter.organisation_name }}
 
 # these lines configure the 'GitHub repo' widget on the top right
 # uncomment to enable
@@ -36,6 +36,10 @@ nav:
 # theme settings, fonts, colours
 theme:
   name: material
+  
+  # replace these path or the contents of the files to change the logo and favicon
+  logo: _assets/_images/logo.png
+  favicon: _assets/_images/favicon.png
 
   features:
     - navigation.instant

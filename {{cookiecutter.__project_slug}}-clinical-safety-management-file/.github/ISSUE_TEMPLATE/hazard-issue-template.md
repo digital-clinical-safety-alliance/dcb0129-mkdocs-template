@@ -27,8 +27,10 @@ An analysis of the Causes of the Hazard
 
 -----
 
-**Assignment**: Assign this Hazard to its Owner. Default owner is the Clinical Safety Officer
-**Labelling**: Add labels according to Severity. Likelihood and Risk Level 
+**Assignment**: Assign this Hazard to its Owner. Default owner is the Clinical Safety Officer {{ cookiecutter.clinical_safety_officer_name }}
+
+**Labelling**: Add labels according to Severity. Likelihood and Risk Level
+
 **Project**: Add to the Project 'Clinical Risk Management'
 
 * Subsequent discussion can be used to mitigate the Hazard, reducing the likelihood (or less commonly reducing the severity) of the Harm.

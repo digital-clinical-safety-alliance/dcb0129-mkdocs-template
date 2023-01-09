@@ -55,6 +55,12 @@ Create a repository on GitHub to house your new repository and follow the instru
 Push local changes to the remote
 `git push -u origin main`
 
+### Creating the standard palette of Hazard Log labels
+
+Once the repo is pushed to GitHub, a GitHub Action will have been created which automates the process of removing unwanted Issue labels and replaces them all with the labels for Likelihood, Severity, and Risk Level
+
+To make this happen is a one-time task in GitHub. Navigate to your GitHub repository, go to the Actions tab, and select 'create-hazard-log-labels' from the right sidebar. Over on the right of the page is a button labelled 'Run workflow', click this and the labels will be created. All other labels will be removed, but you can easily add any other custom labels you need later in the Labels UI.
+
 ### Enabling the built-in Material for MkDocs website
 
 Go into GitHub's repository settings and enable GitHub Pages for your repository (This only works with public repos unless you have a paid plan). Enable GitHub Pages to build from the `gh-pages` branch of your repository.
