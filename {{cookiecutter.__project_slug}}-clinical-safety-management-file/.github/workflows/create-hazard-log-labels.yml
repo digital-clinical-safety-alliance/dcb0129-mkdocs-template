@@ -6,7 +6,8 @@ name: create-hazard-log-labels
 
 on:
   workflow_dispatch
-
+permissions:
+  contents: write
 jobs:
   labeler:
     runs-on: ubuntu-latest
