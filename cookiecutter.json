@@ -15,6 +15,7 @@
   "security_responsible_disclosure_email": "securityresponsibledisclosure@example.com",
 
   "repository_url": "https://github.com/examplerepo",
+  "hazard_log_url": "https://github.com/examplerepo/issues",
 
   "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
   "project_short_description": "A Cookiecutter for a Clinical Safety Management File",
