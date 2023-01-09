@@ -21,7 +21,7 @@ dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
 nav:
-  - Home: "index.md"
+  - Home: "overview.md"
   - "clinical-safety-management-system.md"
   - "clinical-safety-management-plan.md"
   - "clinical-safety-case-report.md"
@@ -32,11 +32,12 @@ nav:
   - "medical-device.md"
   - "download.md"
   - "contact.md"
+  - "license.md"
 
 # theme settings, fonts, colours
 theme:
   name: material
-  
+
   # replace these path or the contents of the files to change the logo and favicon
   logo: _assets/_images/logo.png
   favicon: _assets/_images/favicon.png
@@ -69,7 +70,6 @@ theme:
   font:
     code: Roboto Mono
 
-
 # mkdocs plugins
 plugins:
   - git-committers:
@@ -79,39 +79,39 @@ plugins:
       enable_creation_date: true
   - search
   - with-pdf:
-        #cover: false
-        #back_cover: true
-        #cover_subtitle: SUBTITLE TEXT
-        #custom_template_path: TEMPLATES PATH
-        #
-        #toc_title: TOC TITLE TEXT
-        #heading_shift: false
-        #toc_level: 3
-        #ordered_chapter_level: 2
-        #excludes_children:
-        #    - 'release-notes/:upgrading'
-        #    - 'release-notes/:changelog'
-        #
-        #exclude_pages:
-        #    - 'bugs/'
-        #    - 'appendix/contribute/'
-        #convert_iframe:
-        #    - src: IFRAME SRC
-        #      img: POSTER IMAGE URL
-        #      text: ALTERNATE TEXT
-        #    - src: ...
-        #two_columns_level: 3
-        #
-        #render_js: true
-        #headless_chrome_path: headless-chromium
-        #
-      output_path: pdf/{{cookiecutter.__project_slug}}-clinical-safety-management-file.pdf
+      #cover: false
+      #back_cover: true
+      #cover_subtitle: SUBTITLE TEXT
+      #custom_template_path: TEMPLATES PATH
+      #
+      #toc_title: TOC TITLE TEXT
+      #heading_shift: false
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #
+      #exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      #two_columns_level: 3
+      #
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      #
+      output_path:
+        pdf/{{cookiecutter.__project_slug}}-clinical-safety-management-file.pdf
         #enabled_if_env: ENABLE_PDF_EXPORT
         #
         #debug_html: true
         #show_anchors: true
         #verbose: true
-
 
 # additional markdown features
 markdown_extensions:
@@ -136,7 +136,7 @@ extra_css:
 
 extra:
   project_slug: {{ cookiecutter.__project_slug }}
-  
+
   # uncomment to add social icons
   # social:
   #   - icon: fontawesome/brands/twitter
