@@ -1,6 +1,6 @@
 ---
 title: Clinical Risk Management Plan
-author: { { cookiecutter.author_name } }
+author: {{ cookiecutter.author_name }}
 ---
 
 # Clinical Risk Management Plan

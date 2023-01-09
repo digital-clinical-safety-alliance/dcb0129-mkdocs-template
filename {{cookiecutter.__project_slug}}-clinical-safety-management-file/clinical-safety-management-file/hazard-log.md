@@ -1,6 +1,6 @@
 ---
 title: Hazard Log
-author: { { cookiecutter.author_name } }
+author: {{ cookiecutter.author_name }}
 ---
 
 # {{ cookiecutter.project_name }} Hazard Log
