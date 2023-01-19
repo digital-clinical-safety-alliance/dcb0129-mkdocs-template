@@ -1,19 +1,4 @@
----
-title: Clinical Safety Management File Content License
-author: {{ cookiecutter.author_name }}
----
-
-# License file for the {{ cookiecutter.organisation_name }} Clinical Safety Management File
-
-This clinical safety management file is in a public repository. Having completely open clinical safety documention is a good way to increase transparency and to demonstrate genuine attention to clinical safety issues.
-
-We are happy for it to be reused by others implementing open source projects. If you do reuse any part of this work, you **must** attribute {{ cookiecutter.organisation_name }}, the upstream authors (see below), and follow the other terms of this license.
-
----
-
-**ALL THE BELOW TEXT MUST REMAIN IN THE CLINICAL SAFETY DOCUMENTATION. REMOVING IT IS A BREACH OF THE TERMS OF THE LICENSE UNDER WHICH THE DCB0129 TEMPLATE WAS PROVIDED.**
-
-# License and Acknowledgements for the Baw Medical Ltd DCB0129 Cookiecutter, from which this clinical safety documentation was originally produced.
+# License and Acknowledgements for the Baw Medical Ltd DCB0129 Cookiecutter
 
 ## LICENSES
 
