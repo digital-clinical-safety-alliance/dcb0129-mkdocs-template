@@ -8,7 +8,7 @@ Powered by [Cookiecutter](https://github.com/cookiecutter), the Cookiecutter DCB
 - **Documentation Website** - Repo is with a ready-configured Material for MkDocs website to show your clinical safety documents openly.
 - **GitHub Pages** - Automatic build and deploy of the MkDocs site as a GitHub Pages site (via GitHub Actions)
 - **PDF Export** - Automatic generation of a PDF version of the complete site, for organisations who would prefer to have an 'offline' document.
-- **Hazard Log** - GitHub Action to generate standard DCB1029-compatible Labels for Hazard Severity and Likelihood, as well as overall Risk level.
+- **Hazard Log** - GitHub Action to generate standard DCB0129-compatible Labels for Hazard Severity and Likelihood, as well as overall Risk level.
 
 ## Why?
 
