@@ -85,7 +85,7 @@ You can edit any part of the generated documentation in a text editor. We recomm
 
 ### Online Markdown editing
 
-If you are new to Markdown editing, you can use GitHub's interface itself to edit online, by clicking the 'pencil' edit icon in the top right corner of any source code page. There are also external tools like [Prose.io](http://prose.io/) and [StackEdit](https://stackedit.io/) which give you a nice interface for editing MarkDown online, and will sync the changes with GitHub for you. If you need help getting set up, [contact us in the Signal chat](../contact/contact.md).
+If you are new to Markdown editing, you can use GitHub's interface itself to edit online, by clicking the 'pencil' edit icon in the top right corner of any source code page. There are also external tools like [Prose.io](http://prose.io/) and [StackEdit](https://stackedit.io/) which give you a nice interface for editing MarkDown online, and will sync the changes with GitHub for you.
 
 ### Reviewing and amending
 
@@ -93,7 +93,8 @@ You **MUST** review and amend **IN ENTIRETY** the generated clinical safety docu
 
 - Remove any documents that you don't need.
 - Review all the documents to ensure they read correctly and make sense.
-- Add any documents
+- Add any documents or pages that are necessary to make your safety case complete.
+- Tidy up the navigation so your site is neat and easy to use.
 
 ### Output into other formats
 
@@ -101,7 +102,13 @@ Some organisations or collaborators will be uncomfortable with the Markdown form
 
 When the website is pushed to GitHub, a PDF rendering of the entire site is created and saved to the `pdf/` folder in the `gh-pages` branch. This branch is the one which is deployed to GitHub Pages, so the button on the Download page in the documentation site will work.
 
-Somehow (don't ask me how) this button also works when using `mkdocs serve` on your local machine. :-)
+Since the PDF render takes time (around 15 seconds for a small site, longer for a larger site) by default the PDF rendering is disabled when developing locally. If you need to enable the PDF render because you want to test the PDF locally, then you can enable it like this:
+
+```console
+export ENABLE_PDF_EXPORT=1;mkdocs serve
+```
+
+PDF rendering is enabled by default in the GitHub Action which builds the site on GitHub pages.
 
 ## Contributing
 

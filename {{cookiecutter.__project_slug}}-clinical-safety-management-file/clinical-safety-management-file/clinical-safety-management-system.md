@@ -1,6 +1,6 @@
 ---
 title: Clinical Risk Management System
-author: {{ cookiecutter.author_name }}
+author: { { cookiecutter.author_name } }
 ---
 
 # Clinical Risk Management System
@@ -40,12 +40,12 @@ This document must be **approved** by:
 
 ## Introduction
 
-This Clinical Risk Management System (CRMS) outlines the processes to be followed to ensure that all healthcare IT used to support care withinthe Organisation is developed, implemented and used in a safe manner.
+This Clinical Risk Management System (CRMS) outlines the processes to be followed to ensure that all healthcare IT used to support care within the Organisation is developed, implemented and used in a safe manner.
 
-This CRMS provides a framework that promotes the effective risk management, by the Organisation, of potential health IT hazards andoperational incidents.
+This CRMS provides a framework that promotes the effective risk management, by the Organisation, of potential health IT hazards and operational incidents.
 
-This CRMS complements existing risk management processes that should be defined in the Royal College Digital Growth Charts Team's Risk Management Strategy and wherever practical, uses existing procedures, processes and governance arrangements.
+This CRMS complements existing risk management processes that should be defined in the {{ cookiecutter.clinical_safety_team_name }} Risk Management Strategy and wherever practical, uses existing procedures, processes and governance arrangements.
 
 This CRMS addresses the requirements of [DCB0129](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0129-clinical-risk-management-its-application-in-the-manufacture-of-health-it-systems#current-release) and [DCB0160](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0160-clinical-risk-management-its-application-in-the-deployment-and-use-of-health-it-systems) and follows best practice in clinical safety, development practice, security, and transparency.
 
-This CRMS will be reviewed and maintained in accordance with the the Royal College Digital Growth Charts Team's policies.
+This CRMS will be reviewed and maintained in accordance with {{ cookiecutter.clinical_safety_team_name }} policies.

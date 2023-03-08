@@ -75,6 +75,7 @@ plugins:
   - git-committers:
       repository: {{ cookiecutter.repository_url }}
       branch: main
+      enabled: !ENV [ENABLE_GIT_COMMITTERS, false] # makes Git Committers optional
   - git-revision-date-localized:
       enable_creation_date: true
   - search
@@ -105,13 +106,12 @@ plugins:
       #render_js: true
       #headless_chrome_path: headless-chromium
       #
-      output_path:
-        pdf/{{cookiecutter.__project_slug}}-clinical-safety-management-file.pdf
-        #enabled_if_env: ENABLE_PDF_EXPORT
-        #
-        #debug_html: true
-        #show_anchors: true
-        #verbose: true
+      output_path: pdf/{{cookiecutter.__project_slug}}-clinical-safety-management-file.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
 
 # additional markdown features
 markdown_extensions:
