@@ -9,11 +9,11 @@ name: ALL-BRANCHES-ALL-PRs-build-and-deploy-to-azure.yml
 on:
   push:
     branches:
-      - '**'
+      - # '**' (disabled)
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - live
+      - # live (disabled)
 permissions:
   contents: write
   pull-requests: write # this permission is required in order to allow PR comment with staging URL
