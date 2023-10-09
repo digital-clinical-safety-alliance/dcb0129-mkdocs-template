@@ -16,5 +16,5 @@ jobs:
       - uses: actions/add-to-project@v0.4.0
         with:
           project-url: # INSERT FULL PROJECT URL HERE eg https://github.com/orgs/<orgName>/projects/<projectNumber>
-          github-token: # INSERT A REPO & PROJECT SCOPED PAC TOKEN HERE ${{ secrets.AUTO_ADD_TO_PROJECT_TOKEN }}
+          github-token: # INSERT A REPO & PROJECT SCOPED PAC TOKEN HERE
 
