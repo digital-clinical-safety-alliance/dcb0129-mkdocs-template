@@ -1,0 +1,34 @@
+
+# MAIN CONFIGURATION VALUES
+ORGANISATION_NAME="A Healthcare Technology Company" # The name of your organisation
+PROJECT_NAME="Healthcare Technology Project Name" # this can be anything you want
+PROJECT_SLUG="https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
+PROJECT_SHORT_DESCRIPTION="A Cookiecutter for a Clinical Safety Management File"
+
+SITE_NAME=""
+SITE_DESCRIPTION=""
+SITE_AUTHOR=""
+SITE_URL=""
+
+# CLINICAL SAFETY OFFICER SETTINGS
+CLINICAL_SAFETY_OFFICER_NAME="Clinical Safety Officer Name"
+CLINICAL_SAFETY_OFFICER_CONTACT="clinicalsafetyofficer@example.com"
+CLINICAL_SAFETY_OFFICER_GITHUB_HANDLE="csogithubhandle"
+CLINICAL_SAFETY_TEAM_NAME="Clinical Safety Team Name"
+
+AUTHOR_NAME="Example Author's Name"
+AUTHOR_EMAIL="author@example.com"
+
+COPYRIGHT_TEXT="Copyright &copy; 2023"
+ENABLE_GIT_COMMITTERS=0 # Set to 1 to enable the git-committers plugin, 0 to disable
+REPOSITORY_URL=""
+
+# PDF GENERATION
+ENABLE_PDF_EXPORT=False # Set to True to enable automatic PDF generation
+PDF_OUTPUT_PATH=pdf/clinical-safety-management-file.pdf # Set this to where you want the PDF to be output to
+
+HAZARD_LOG_URL="https://github.com/clinicians-who-code/clinical-safety-hazard-documentation/issues"
+
+SECURITY_RESPONSIBLE_DISCLOSURE_EMAIL="securityresponsibledisclosure@example.com"
+CLINICAL_SAFETY_MANAGEMENT_FILE_VERSION="1.0.0"
+CLINICAL_SAFETY_MANAGEMENT_FILE_LICENSE="Creative Commons CC-BY-SA4.0"

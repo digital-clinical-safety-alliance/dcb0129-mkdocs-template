@@ -1,23 +1,22 @@
 # Key metadata about the site
-site_name: {{ cookiecutter.project_name }}
-site_description: {{ cookiecutter.project_short_description }}
-site_author: {{ cookiecutter.organisation_name }}
-site_url:
+site_name: !ENV SITE_NAME
+site_description: !ENV SITE_DESCRIPTION
+site_author: !ENV SITE_AUTHOR
+site_url: !ENV SITE_URL
 
 # MkDocs processes files in this folder into a HTML site
 docs_dir: clinical-safety-management-file
 
 # Copyright information which is shown in the footer
-copyright: Copyright &copy; 2022 {{ cookiecutter.organisation_name }}
+copyright: !ENV COPYRIGHT_TEXT
 
 # these lines configure the 'GitHub repo' widget on the top right
-# uncomment to enable
-repo_url: {{ cookiecutter.repository_url }}
-repo_name: {{ cookiecutter.__project_slug }}
+repo_url: !ENV REPOSITORY_URL
+repo_name: !ENV REPOSITORY_NAME
 edit_uri: blob/main/clinical-safety-management-file
 
-# `mkdocs serve` serves the docs locally on this port
-dev_addr: "127.0.0.1:8001"
+# `mkdocs serve` serves the docs locally on this (arbitrarily chosen) port
+dev_addr: "127.0.0.1:8002"
 
 # Navigation structure
 nav:
@@ -73,11 +72,12 @@ theme:
 # mkdocs plugins
 plugins:
   - git-committers:
-      repository: {{ cookiecutter.repository_url }}
+      repository: !ENV REPOSITORY_URL
       branch: main
       enabled: !ENV [ENABLE_GIT_COMMITTERS, false] # makes Git Committers optional
   - git-revision-date-localized:
       enable_creation_date: true
+  - macros
   - search
   - with-pdf:
       #cover: false
@@ -106,7 +106,7 @@ plugins:
       #render_js: true
       #headless_chrome_path: headless-chromium
       #
-      output_path: pdf/{{cookiecutter.__project_slug}}-clinical-safety-management-file.pdf
+      output_path: !ENV PDF_OUTPUT_PATH
       enabled_if_env: ENABLE_PDF_EXPORT
       #
       #debug_html: true
@@ -134,9 +134,32 @@ markdown_extensions:
 extra_css:
   - _assets/_stylesheets/extra.css
 
+# Placeholder variables for {{ macros }} are set here
 extra:
-  project_slug: {{ cookiecutter.__project_slug }}
-
+  author_email: !ENV AUTHOR_EMAIL
+  author_name: !ENV AUTHOR_NAME
+  clinical_safety_management_file_license: !ENV CLINICAL_SAFETY_MANAGEMENT_FILE_LICENSE
+  clinical_safety_management_file_version: !ENV CLINICAL_SAFETY_MANAGEMENT_FILE_VERSION
+  clinical_safety_officer_contact: !ENV CLINICAL_SAFETY_OFFICER_CONTACT
+  clinical_safety_officer_github_handle: !ENV CLINICAL_SAFETY_OFFICER_GITHUB_HANDLE
+  clinical_safety_officer_name: !ENV CLINICAL_SAFETY_OFFICER_NAME
+  clinical_safety_team_name: !ENV CLINICAL_SAFETY_TEAM_NAME
+  copyright_text: !ENV COPYRIGHT_TEXT
+  enable_git_committers: !ENV ENABLE_GIT_COMMITTERS
+  enable_pdf_export: !ENV ENABLE_PDF_EXPORT
+  hazard_log_url: !ENV HAZARD_LOG_URL
+  organisation_name: !ENV ORGANISATION_NAME
+  pdf_output_path: !ENV PDF_OUTPUT_PATH
+  project_name: !ENV PROJECT_NAME
+  project_short_description: !ENV PROJECT_SHORT_DESCRIPTION
+  project_slug: !ENV PROJECT_SLUG
+  project_slug: !ENV PROJECT_SLUG
+  repository_url: !ENV REPOSITORY_URL
+  security_responsible_disclosure_email: !ENV SECURITY_RESPONSIBLE_DISCLOSURE_EMAIL
+  site_author: !ENV SITE_AUTHOR
+  site_description: !ENV SITE_DESCRIPTION
+  site_name: !ENV SITE_NAME
+  site_url: !ENV SITE_URL
   # uncomment to add social icons
   # social:
   #   - icon: fontawesome/brands/twitter

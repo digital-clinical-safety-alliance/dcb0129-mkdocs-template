@@ -1,0 +1,7 @@
+# patterns matched in this file are excluded from the Dockerfile image build
+# This reduces image size and improves security
+
+.git
+.github
+.gitignore
+*.env

@@ -10,4 +10,8 @@ mkdocs-git-committers-plugin-2
 mkdocs-git-revision-date-localized-plugin
 
 # for the PDF export feature
+# https://pypi.org/project/mkdocs-with-pdf/
 mkdocs-with-pdf
+
+# for the macros feature
+mkdocs-macros-plugin
