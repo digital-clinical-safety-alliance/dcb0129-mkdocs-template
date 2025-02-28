@@ -1,15 +1,13 @@
-version: "3.10"
-
 services:
 
   # mkdocs - documentation
   mkdocs:
     build: .
     env_file:
-    - envs/.env # env file - NOT committed to Git
+    - envs/env_template # env file
     ports:
       - 8002:8001 # port mapping for the mkdocs serve command
-    command: mkdocs serve --config-file documentation/mkdocs.yml
+    command: mkdocs serve
     restart: always
     volumes:
       - .:/app/
