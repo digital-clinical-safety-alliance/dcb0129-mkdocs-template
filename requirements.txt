@@ -13,5 +13,5 @@ mkdocs-git-revision-date-localized-plugin
 # https://pypi.org/project/mkdocs-with-pdf/
 mkdocs-with-pdf
 
-# for the macros feature
+# for the macros feature which interpolates variables from mkdocs.yml into the pages
 mkdocs-macros-plugin

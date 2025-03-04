@@ -1,6 +1,6 @@
 ---
 title: MHRA Essential Requirements
-author: {{ cookiecutter.author_name }}
+author: {{ author_name }}
 ---
 
 ## MHRA Medical device essential requirements - general
@@ -80,4 +80,3 @@ of the potential users, and to identify the manufacturer.
     10.2. The measurement, monitoring and display scale must be designed in line with ergonomic principles, taking account of the intended purpose of the device.
 
     10.3. The measurements made by devices with a measuring function must be expressed in legal units conforming to the Units of Measurement    Regulations 1986.
-    

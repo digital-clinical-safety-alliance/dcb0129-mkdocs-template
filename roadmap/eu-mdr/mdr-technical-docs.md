@@ -1,15 +1,15 @@
 ---
 title: Technical Documentation
-author: { { cookiecutter.author_name } }
+author: {{ author_name }}
 ---
 
 # Technical Documentation for EU Medical Device Regulation
 
-## {{ cookiecutter.project_name }}
+## {{ project_name }}
 
 1. ### Your name and address, or those of any authorised representatives
 
-{{ cookiecutter.organisation_name }}
+{{ organisation_name }}
 COMPLETE_TEXT_HERE
 
 1. ### A brief description of the product

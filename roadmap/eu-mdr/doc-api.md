@@ -1,6 +1,6 @@
 ---
 title: Declaration of Conformity
-author: { { cookiecutter.author_name } }
+author: {{ author_name }}
 ---
 
 # Declaration of Conformity
@@ -17,12 +17,12 @@ author: { { cookiecutter.author_name } }
 
 1. ### This declaration of conformity is issued under the sole responsibility of the manufacturer (or installer)
 
-   {{ cookiecutter.organisation_name }}
+   {{ organisation_name }}
 
 1. ### Object of the declaration (identification of product allowing traceability. It may include a colour image of sufficient clarity to enable the identification of the product, where appropriate.)
 
    There is no image, this is an entirely software product, with no dedicated hardware.
-   Server application code is located at <{{ cookiecutter.repository_url }}>
+   Server application code is located at <{{ repository_url }}>
 
 1. ### The object of the declaration described in point 4 is in conformity with the relevant Union harmonisation legislation
 
@@ -36,7 +36,7 @@ The complete unabridged technical file, all documentation, instructions for use,
 
 |                             |                                      |
 | --------------------------- | ------------------------------------ |
-| Signed for and on behalf of | {{ cookiecutter.organisation_name }} |
+| Signed for and on behalf of | {{ organisation_name }} |
 | Place of Issue              | COMPLETE_TEXT_HERE                   |
 | Date of Issue               | COMPLETE_TEXT_HERE                   |
 | Name                        | COMPLETE_TEXT_HERE                   |

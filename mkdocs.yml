@@ -1,22 +1,22 @@
 # Key metadata about the site
-site_name: !ENV SITE_NAME
-site_description: !ENV SITE_DESCRIPTION
-site_author: !ENV SITE_AUTHOR
-site_url: !ENV SITE_URL
+site_name: "Digital Clinical Safety Alliance"
+site_description: "A template for creating clinical safety management files"
+site_author: "Digital Clinical Safety Alliance Team"
+site_url: "https://www.digital-clinical-safety-alliance.org"
 
 # MkDocs processes files in this folder into a HTML site
 docs_dir: clinical-safety-management-file
 
 # Copyright information which is shown in the footer
-copyright: !ENV COPYRIGHT_TEXT
+copyright: "Copyright &copy; 2025"
 
 # these lines configure the 'GitHub repo' widget on the top right
-repo_url: !ENV REPOSITORY_URL
-repo_name: !ENV REPOSITORY_NAME
+repo_url: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
+repo_name: "clinical-safety-hazard-documentation"
 edit_uri: blob/main/clinical-safety-management-file
 
 # `mkdocs serve` serves the docs locally on this (arbitrarily chosen) port
-dev_addr: "127.0.0.1:8002"
+dev_addr: "0.0.0.0:8001"
 
 # Navigation structure
 nav:
@@ -72,9 +72,9 @@ theme:
 # mkdocs plugins
 plugins:
   - git-committers:
-      repository: !ENV REPOSITORY_URL
+      repository: "**REPOSITORY_URL**"
       branch: main
-      enabled: !ENV [ENABLE_GIT_COMMITTERS, false] # makes Git Committers optional
+      enabled:  false # makes Git Committers optional
   - git-revision-date-localized:
       enable_creation_date: true
   - macros
@@ -106,8 +106,8 @@ plugins:
       #render_js: true
       #headless_chrome_path: headless-chromium
       #
-      output_path: !ENV PDF_OUTPUT_PATH
-      enabled_if_env: ENABLE_PDF_EXPORT
+      # output_path: 
+      # enabled_if_env: 
       #
       #debug_html: true
       #show_anchors: true
@@ -136,33 +136,26 @@ extra_css:
 
 # Placeholder variables for {{ macros }} are set here
 extra:
-  author_email: !ENV AUTHOR_EMAIL
-  author_name: !ENV AUTHOR_NAME
-  clinical_safety_management_file_license: !ENV CLINICAL_SAFETY_MANAGEMENT_FILE_LICENSE
-  clinical_safety_management_file_version: !ENV CLINICAL_SAFETY_MANAGEMENT_FILE_VERSION
-  clinical_safety_officer_contact: !ENV CLINICAL_SAFETY_OFFICER_CONTACT
-  clinical_safety_officer_github_handle: !ENV CLINICAL_SAFETY_OFFICER_GITHUB_HANDLE
-  clinical_safety_officer_name: !ENV CLINICAL_SAFETY_OFFICER_NAME
-  clinical_safety_team_name: !ENV CLINICAL_SAFETY_TEAM_NAME
-  copyright_text: !ENV COPYRIGHT_TEXT
-  enable_git_committers: !ENV ENABLE_GIT_COMMITTERS
-  enable_pdf_export: !ENV ENABLE_PDF_EXPORT
-  hazard_log_url: !ENV HAZARD_LOG_URL
-  organisation_name: !ENV ORGANISATION_NAME
-  pdf_output_path: !ENV PDF_OUTPUT_PATH
-  project_name: !ENV PROJECT_NAME
-  project_short_description: !ENV PROJECT_SHORT_DESCRIPTION
-  project_slug: !ENV PROJECT_SLUG
-  project_slug: !ENV PROJECT_SLUG
-  repository_url: !ENV REPOSITORY_URL
-  security_responsible_disclosure_email: !ENV SECURITY_RESPONSIBLE_DISCLOSURE_EMAIL
-  site_author: !ENV SITE_AUTHOR
-  site_description: !ENV SITE_DESCRIPTION
-  site_name: !ENV SITE_NAME
-  site_url: !ENV SITE_URL
-  # uncomment to add social icons
-  # social:
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/exampleorgstwitter
-  #   - icon: fontawesome/brands/github
-  #     link: https://github.com/exampleorgsgithub
+  author_email: "author@example.com"
+  author_name: "Example Author's Name"
+  clinical_safety_management_file_license: "Creative Commons CC-BY-SA4.0"
+  clinical_safety_management_file_version: "1.0.0"
+  clinical_safety_officer_contact: "clinicalsafetyofficer@example.com"
+  clinical_safety_officer_github_handle: "csogithubhandle"
+  clinical_safety_officer_name: "Clinical Safety Officer Name"
+  clinical_safety_team_name: "Clinical Safety Team Name"
+  enable_git_committers: false
+  enable_pdf_export: false
+  hazard_log_url: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation/issues"
+  organisation_name: "A Healthcare Technology Company"
+  pdf_output_path: "pdf/clinical-safety-management-file.pdf"
+  project_name: "Healthcare Technology Project Name"
+  project_short_description: "A Template for a Clinical Safety Management File"
+  project_slug: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
+  repository_url: "https://github.com/clinicians-who-code/clinical-safety-hazard-documentation"
+  security_responsible_disclosure_email: "securityresponsibledisclosure@example.com"
+  site_author: "Digital Clinical Safety Alliance Team"
+  site_description: "A template for creating clinical safety management files"
+  site_name: "Digital Clinical Safety Alliance"
+  site_url: "https://www.digital-clinical-safety-alliance.org"
+

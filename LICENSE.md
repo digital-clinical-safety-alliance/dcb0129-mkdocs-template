@@ -1,4 +1,4 @@
-# License and Acknowledgements for the Baw Medical Ltd DCB0129 Cookiecutter
+# License and Acknowledgements for the Baw Medical Ltd DCB0129 Template
 
 ## LICENSES
 

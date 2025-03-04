@@ -3,10 +3,8 @@ services:
   # mkdocs - documentation
   mkdocs:
     build: .
-    env_file:
-    - envs/env_template # env file
     ports:
-      - 8002:8001 # port mapping for the mkdocs serve command
+      - 8024:8001 # port mapping for the mkdocs serve command
     command: mkdocs serve
     restart: always
     volumes:

@@ -27,7 +27,7 @@ An analysis of the Causes of the Hazard
 
 -----
 
-**Assignment**: Assign this Hazard to its Owner. Default owner is the Clinical Safety Officer {{ cookiecutter.clinical_safety_officer_name }}
+**Assignment**: Assign this Hazard to its Owner. Default owner is the Clinical Safety Officer {{ clinical_safety_officer_name }}
 
 **Labelling**: Add labels according to Severity. Likelihood and Risk Level
 

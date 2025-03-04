@@ -1,8 +1,8 @@
 import os
 
 REMOVE_PATHS = [
-    '{% if cookiecutter.business_continuity.lower() != "y" %} business-continuity.md {% endif %}',
-    '{% if cookiecutter.medical_device.lower() != "y" %} medical-device.md {% endif %}',
+    'business-continuity.md',
+    'medical-device.md',
 ]
 
 for path in REMOVE_PATHS:
